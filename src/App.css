@@ -1,0 +1,92 @@
+.container{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+background-color: #121417;
+
+}
+.box{
+  width: 30%;
+  height:80vh ;
+  
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #1C2026;
+
+}
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  margin-bottom: -30px;
+  border-radius: 20px;
+  
+  
+}
+.display{
+  padding: 20px;
+  width: 90%;
+  border: none;
+  font-size: 25px;
+  height: 70%;
+  border-radius: 20px;
+  background-color: #0B0D10;
+  color: white;
+}
+.control{
+  height :80%;
+  padding : 20px;
+border-radius: 20px;
+margin: 5%;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.rows{
+  display: flex;
+  gap: 15px;
+align-items: center;
+justify-content: center;
+  height: 20%;
+  
+}
+.buttons{
+  width : 20%;
+  height: 100%;
+  border: none;
+  color: azure;
+  background-color:#292E36;
+  font-weight: 700;
+  border-radius: 5px;
+  
+
+}
+.ops{
+  background-color:#2563EB;
+}
+.clear{
+  background-color:#EF4444;
+}
+.equal{
+ background-color:#10B981;
+}
+.buttons:hover {
+    background-color: #343B46;
+}
+
+.ops:hover {
+    background-color: #3B82F6;
+}
+
+.equal:hover {
+    background-color: #34D399;
+}
+
+.clear:hover {
+    background-color: #F87171;
+}
